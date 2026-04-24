@@ -171,6 +171,10 @@ color: #FFFFFF;
     color: #d1d5db;
 }
 
+.highlight {
+    color: #4b5638; /* verde que você já usa */
+    font-weight: 500; /* opcional, dá mais destaque */
+}
 
 
 .about div,
