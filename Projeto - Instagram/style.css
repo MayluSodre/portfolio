@@ -48,12 +48,12 @@ body{
     background-size: 620px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 550px;
     margin-bottom: 50px;
 }
 
 .right { /* Lado direito*/
-    padding-left: 20px;
+    padding-left: 30px;
 
 }
 
