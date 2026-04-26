@@ -341,6 +341,17 @@ color: #FFFFFF;
 
 /* Fim Projetos*/
 
+/*Contatos*/
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
 /*Inicio rodapé*/
 
 footer {
@@ -450,5 +461,31 @@ footer p{
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
+    .project-card .overlay {
+        opacity: 1;
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: left;
+        background: linear-gradient(
+            to top,
+            rgba(0,0,0,0.9),
+            rgba(0,0,0,0.15)
+        );
+    }
+
+    .project-card:hover img {
+        transform: none;
+        filter: none;
+    }
+
+    .overlay h3 {
+        font-size: 18px;
+    }
+
+    .overlay p {
+        font-size: 13px;
+    }
+
 }
 
