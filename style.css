@@ -343,9 +343,6 @@ color: #FFFFFF;
 
 /*Contatos*/
 
-
-
-
 /*Inicio rodapé*/
 
 footer {
@@ -371,7 +368,41 @@ footer p{
 
 /* Responsividade */
 
+@media (max-width: 768px) {
+    .nav {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        padding: 16px 20px;
+    }
+
+    .nav-list {
+        gap: 14px;
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-list a {
+        padding: 6px 0;
+        font-size: 14px;
+    }
+
+    .contatos {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .action {
+        font-size: 13px;
+        padding: 7px 10px;
+    }
+}
+
 @media (max-width: 900px) {
+
   header {
     padding: 24px 6%;
   }
