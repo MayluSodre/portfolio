@@ -185,7 +185,7 @@ color: #FFFFFF;
     color: #d1d5db;
 }
 
-.highlight {
+.highlight { /*Detalhe na fonte em verde*/
     color: #4b5638; /* verde que já utilizo */
     font-weight: 500; /* mais destaque no texto*/
 }
@@ -286,7 +286,7 @@ color: #FFFFFF;
     transition: 0.4s ease;
 }
 
-/* overlay (camada escura + texto) */
+/* sobreposição (camada escura + texto) */
 .overlay {
     position: absolute;
     inset: 0; /* top, right, bottom e left = 0 */
@@ -307,7 +307,7 @@ color: #FFFFFF;
     padding: 20px;
 }
 
-/* HOVER 🔥 */
+/* HOVER (passar o mouse) */
 .project-card:hover img {
     transform: scale(1.08);
     filter: brightness(0.5);
