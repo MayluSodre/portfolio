@@ -42,11 +42,25 @@ html {
     
 }
 
-.nav-list a{ /* Aqui defini cor, tamanho das opções*/
-   
+.nav-list a{ /* Aqui defini cor e tamanho das opções do cabeçalho*/
     text-decoration: none;
     color: #FFFFFF;
-    padding: 25px;
+    padding: 12px 20px;
+}
+
+.btn-download {
+    border: 1px solid #6fbf73;
+    color: #6fbf73;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 600; /*negrito*/
+    transition: 0.3s;
+}
+
+/* hover */
+.btn-download:hover {
+    background: #6fbf73;
+    color: #000;
 }
 
 .nav-list a:hover { /*Aqui configurei o que fazer quando o cursos estiver posicionado nas opções*/

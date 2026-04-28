@@ -19,35 +19,49 @@ html {
 
 /*Inicio Header */
 
-.nav{ /* Aqui eu configurei a área do cabeçalho */
-    
+.nav { /*Todo o espaço do cabeçalho*/
     background: rgba(0, 0, 0, 0.8);
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: space-between; /* joga um bloco pra cada lado */
+    align-items: center; /* centraliza na vertical */
     position: sticky;
     top: 0;
-    z-index: 9; /* Defino a camada do objeto*/
-    
-    
+    z-index: 9;
+    padding: 0 28px; /* respiro nas laterais */
 }
 
-.nav-list { /* Aqui configurei a posição das opções*/
+.nav-list { /*posição das opções Home, Sobre e Projetos*/
     display: flex;
     list-style: none;
     align-items: center;
-    margin-right: 28px ;
-    
-    
+    gap: 20px;
 }
 
-.nav-list a{ /* Aqui defini cor, tamanho das opções*/
-   
+.nav-list a {
     text-decoration: none;
     color: #FFFFFF;
-    padding: 25px;
+    padding: 10px 0;
 }
+
+.contatos {
+    display: flex;
+    gap: 10px;
+}
+
+.action { /*botões dos contatos*/
+    cursor: pointer;
+    text-decoration: none;
+
+    border: 1px solid #6fbf73;
+    color: #6fbf73;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 600; /*negrito*/
+    transition: 0.9s; /*velocidade da transição do botão*/
+}
+
 
 .nav-list a:hover { /*Aqui configurei o que fazer quando o cursos estiver posicionado nas opções*/
 color: #FFFFFF;
@@ -67,7 +81,7 @@ color: #FFFFFF;
     height: calc(100vh - 0px);
     background-image: url(imagens/portfolio/fundo-dia.png);
     padding-left: 10%;
-        min-height: 100vh;
+    min-height: 100vh;
 
    
 
@@ -320,19 +334,6 @@ color: #FFFFFF;
     display: none;
 }
 
-.action {
-    text-decoration: none;
-    cursor: pointer;
-    color: #f4ead2;
-    background: linear-gradient(135deg, #4b5638, #263124);
-    border: 0;
-    padding: 12px 14px;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.9s; /*velocidade da transição do botão*/
-    margin-top: 18px;
-}
 
 .action:hover {
     transform: scale(1.1);
@@ -342,13 +343,7 @@ color: #FFFFFF;
 
 /*Contatos*/
 
-.contatos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
+
 
 
 /*Inicio rodapé*/
